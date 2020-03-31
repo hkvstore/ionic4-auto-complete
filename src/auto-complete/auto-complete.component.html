@@ -127,6 +127,7 @@
 </ul>
 
 <ul *ngIf="suggestions.length === 0 && showSuggestions"
+    [class.no-items]="suggestions.length === 0"
     [ngStyle]="listStyles()">
     <li [ngStyle]="styles.listItem">
         <ng-template [ngTemplateOutlet]="emptyTemplate || defaultEmptyTemplate"

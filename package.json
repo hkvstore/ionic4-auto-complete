@@ -1,5 +1,5 @@
 {
-  "name": "ionic4-auto-complete",
+  "name": "@hkvstore/ionic4-auto-complete",
   "version": "2.6.0",
   "readme": "README.md",
   "homepage": "https://ionic4-auto-complete.jrquick.com",
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jrquick17/ionic4-auto-complete"
+    "url": "https://github.com/hkvstore/ionic4-auto-complete"
   },
   "author": {
     "name": "Jeremy Quick",
