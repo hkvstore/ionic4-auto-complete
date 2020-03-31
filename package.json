@@ -1,10 +1,10 @@
 {
   "name": "@hkvstore/ionic4-auto-complete",
-  "version": "2.6.0",
+  "version": "2.6.1",
   "readme": "README.md",
   "homepage": "https://ionic4-auto-complete.jrquick.com",
   "scripts": {
-    "build": "ng-packagr -p package.json && cp src/auto-complete/auto-complete.component.scss dist/auto-complete.scss && cp -r src/assets dist/assets",
+    "build": "ng-packagr -p package.json && copy src\\auto-complete\\auto-complete.component.scss dist\\auto-complete.scss && xcopy src\\assets dist\\assets\\",
     "demo": "cd demo && ionic serve",
     "demo:build": "cd demo && npm install && ionic build --prod && cd ..",
     "demo:test": "npm run build && cd demo && cp -fr ../dist/* node_modules/ionic4-auto-complete/ && cd .. && npm run demo",
@@ -34,9 +34,9 @@
     "url": "https://github.com/hkvstore/ionic4-auto-complete"
   },
   "author": {
-    "name": "Jeremy Quick",
-    "email": "me@jrquick.com",
-    "url": "https://jrquick.com"
+    "name": "e.World Technology Limited",
+    "email": "sales@hkvstore.com",
+    "url": "https://www.hkvstore.com/dbappmaker"
   },
   "keywords": [
     "angular",
