@@ -13,7 +13,7 @@ export interface AutoCompleteService {
    * this method should return an array of objects (results)
    * @param term
    */
-  getResults(term:any):any;
+  getResults(term:any,component:any):any;
 
   /**
    * this method parses each item of the results from data service.

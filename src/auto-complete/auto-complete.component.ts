@@ -371,7 +371,7 @@ export class AutoCompleteComponent implements AfterViewChecked, ControlValueAcce
 
           this.isLoading = false;
         } else {
-          result = this.dataProvider.getResults(this.keyword);
+          result = this.dataProvider.getResults(this.keyword, this);
 
           if (result instanceof Subject) {
             result = result.asObservable();
@@ -494,7 +494,7 @@ export class AutoCompleteComponent implements AfterViewChecked, ControlValueAcce
   /**
    * Handles tab key press.
    * If `selectOnTabOut` is `true`, will select currently focused item
-   * 
+   *
    * @param event
    */
   public handleTabOut(event):void {
